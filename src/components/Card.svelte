@@ -1,0 +1,31 @@
+<div class="card {$$props.class ? $$props.class : ''}">
+    <slot></slot>
+</div>
+
+<style>
+    .card {
+        margin: 2rem 0;
+        padding: 1.4rem 1rem 1rem;
+        border-radius: 8px;
+        text-align: center;
+        background: wheat;
+    }
+    .card:global(.card h3) {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .card.dark {
+        background: #e65447;
+    }
+
+    .card:global(.dark h3) {
+        margin: 0;
+        color: white;
+    }
+
+    .card:global(.dark p) {
+        color: white;
+    }
+
+</style>

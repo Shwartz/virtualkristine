@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body>
-		<div>%sveltekit.body%</div>
-	</body>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" href="%sveltekit.assets%/favicon.png"/>
+    <title>page title missing inheritance!</title>
+    %sveltekit.head%
+</head>
+<body class="app">
+<div class="wrap">%sveltekit.body%</div>
+</body>
 </html>
+
+
+<style>
+    /* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+        font-family: 'Helvetica', 'Arial', sans-serif;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: rgb(242, 242, 242);
+    }
+
+    @media screen and (min-width: 800px) {
+        .app {
+            background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(242, 240, 238, 1) 50%);
+        }
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 400;
+        margin: 2rem 0;
+        color: #333435;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        font-weight: 400;
+        margin: 2rem 0;
+        color: #333435;
+    }
+
+    ul {
+        margin-top: 1rem;
+    }
+
+    p, li {
+        margin-top: 0.5rem;
+        color: #58595b;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        font-weight: lighter;
+    }
+</style>
