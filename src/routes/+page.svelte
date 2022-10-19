@@ -20,7 +20,7 @@
         <Card class="dark">
             <h3>Hire me for a day</h3>
             <p>Phone: <a href="tel:+44-775-7998277">+44-775-7998277</a></p>
-            <p>LinkedIn</p>
+            <p><a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a></p>
         </Card>
 
         <h3>Benefits</h3>
