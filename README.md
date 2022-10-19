@@ -1,5 +1,6 @@
 # To-Do list
 - Missing page title in the header
+- Favicon
 
 # create-svelte
 
