@@ -8,7 +8,8 @@
         padding: 1.4rem 1rem 1rem;
         border-radius: 8px;
         text-align: center;
-        background: wheat;
+        background: white;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     }
     .card:global(.card h3) {
         font-size: 1.5rem;

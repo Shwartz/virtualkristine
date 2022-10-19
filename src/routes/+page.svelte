@@ -115,8 +115,10 @@
         align-items: center;
         background: white;
         border-radius: 8px;
+        margin-top: 1rem;
         padding: 1rem;
         text-align: center;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     }
 
     .introImage p {
@@ -150,6 +152,12 @@
 
         .introImage p {
             margin: 0;
+        }
+    }
+
+    @media (min-width: 900px) {
+        section {
+            padding: 0 2rem;
         }
     }
 </style>
