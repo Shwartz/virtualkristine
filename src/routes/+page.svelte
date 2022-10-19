@@ -1,5 +1,6 @@
 <script>
-    import Card from '../components/Card.svelte';
+  import Card from '../components/Card.svelte';
+  import imgKristine from '$lib/images/Kristine-Legzdina.jpg';
 </script>
 
 <div class="grid">
@@ -16,15 +17,9 @@
             <li>Flexible working hours, to suit your requirements.</li>
         </ul>
 
-        <Card>
-            <h3>Hire me for a day</h3>
-            <p>Phone: 1223232323</p>
-            <p>LinkedIn</p>
-        </Card>
-
         <Card class="dark">
             <h3>Hire me for a day</h3>
-            <p>Phone: 1223232323</p>
+            <p>Phone: <a href="tel:+44-775-7998277">+44-775-7998277</a></p>
             <p>LinkedIn</p>
         </Card>
 
@@ -55,40 +50,48 @@
     </section>
 
     <section>
-        <div>
-            <h3>Need a virtual assistant for a day? I can help you with:</h3>
-            <ul>
-                <li>Meeting co-ordination</li>
-                <li>Printing or emailing all course material and information to clients</li>
-                <li>Proactively deal with correspondence, reports and emails in a timely manner</li>
-                <li>Excel spread sheet inputting, formatting and management</li>
-                <li>PowerPoint presentation inputting/formatting</li>
-                <li>Management of a complex diary – managing competing priorities</li>
-                <li>Organisation of international and local travel, including preparation of itineraries, visas, etc.
-                </li>
-                <li>Organising local and international meetings, attending where necessary</li>
-                <li>Processing expenses and invoices using relevant systems</li>
-                <li>Liaise and engage with a wide range of people on a variety of levels, internally and externally</li>
-                <li>Pro-actively tackling issues related to administrative processes to ensure speed and efficiency</li>
-            </ul>
+        <h3>My mission</h3>
+        <div class="introImage">
+            <p>My mission is to provide a professional, confidential and exceptional secretarial and administration service to my clients.</p>
+            <img src={imgKristine} alt="Kristine Legzdina"/>
         </div>
-        <div>
+        <h3>Need a virtual assistant for a day? I can help you with:</h3>
+        <ul>
+            <li>Meeting co-ordination</li>
+            <li>Printing or emailing all course material and information to clients</li>
+            <li>Proactively deal with correspondence, reports and emails in a timely manner</li>
+            <li>Excel spread sheet inputting, formatting and management</li>
+            <li>PowerPoint presentation inputting/formatting</li>
+            <li>Management of a complex diary – managing competing priorities</li>
+            <li>Organisation of international and local travel, including preparation of itineraries, visas, etc.
+            </li>
+            <li>Organising local and international meetings, attending where necessary</li>
+            <li>Processing expenses and invoices using relevant systems</li>
+            <li>Liaise and engage with a wide range of people on a variety of levels, internally and externally</li>
+            <li>Pro-actively tackling issues related to administrative processes to ensure speed and efficiency</li>
+        </ul>
+        <Card>
             <h3>General administration</h3>
             <p>Proactively deal with correspondence, reports and emails in a timely manner</p>
-        </div>
-        <div>
+        </Card>
+        <Card>
             <h3>Workshop organisation</h3>
             <p>Investigation into the best venue, connect with attendees leading up to the event</p>
-        </div>
+        </Card>
+        <Card>
+            <h3>Great price</h3>
+            <p>All rates will be calculated on an individual basis, depending on your personal
+                requirements</p>
+        </Card>
     </section>
 </div>
 
 <style>
     .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 500px;
         padding-bottom: 80px;
     }
 
@@ -106,9 +109,47 @@
         margin-right: 8px;
     }
 
-    @media (max-width: 800px) {
+    .introImage {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background: white;
+        border-radius: 8px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .introImage p {
+        font-style: italic;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .introImage img {
+        width: 100%;
+    }
+
+    @media (min-width: 800px) {
         .grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1200px;
+        }
+    }
+
+    @media (min-width: 900px) {
+        .introImage {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .introImage img {
+            max-width: 50%;
+        }
+
+        .introImage p {
+            margin: 0;
         }
     }
 </style>

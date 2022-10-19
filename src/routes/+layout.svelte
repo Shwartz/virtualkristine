@@ -7,7 +7,7 @@
 <slot></slot>
 
 <footer>
-    <p>Call: 212121212, LinkedIn, Email © 2015 - 2022</p>
+    <p class="font-small">Call: <a href="tel:+44-775-7998277">+44-775-7998277</a> | <a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a> | © 2015 - 2022</p>
 </footer>
 
 <style>

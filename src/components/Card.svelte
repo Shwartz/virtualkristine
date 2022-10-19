@@ -24,8 +24,8 @@
         color: white;
     }
 
-    .card:global(.dark p) {
+    .card:global(.dark p),
+    .card:global(.dark a) {
         color: white;
     }
-
 </style>
