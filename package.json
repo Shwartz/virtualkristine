@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build --base=virtualkristine",
+		"build": "vite build",
 		"deploy": "gh-pages -d build",
 		"preview": "vite preview",
 		"test": "playwright test",
