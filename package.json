@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"deploy": "gh-pages -d build",
 		"preview": "vite preview",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -19,6 +20,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"eslint": "^8.16.0",
+		"gh-pages": "^3.2.3",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"prettier": "^2.6.2",
@@ -30,5 +32,8 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.46"
+	}
 }
