@@ -4,12 +4,12 @@
     "src": "src/lib/images/Kristine-Legzdina.jpg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-34c80b81.js",
+    "file": "_app/immutable/start-f8359522.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_singletons-26b758a2.js"
+      "_index-56da23ed.js",
+      "_singletons-0175b2e2.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -20,34 +20,34 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-2ae54982.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-1f5ced27.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_stores-505c98e1.js",
-      "_singletons-26b758a2.js"
+      "_index-56da23ed.js",
+      "_stores-3540599d.js",
+      "_singletons-0175b2e2.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-2cafdf2a.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-0a3c6479.js",
+    "file": "_app/immutable/components/error.svelte-42c4219e.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_stores-505c98e1.js"
+      "_index-56da23ed.js",
+      "_stores-3540599d.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-8754ba16.js",
+    "file": "_app/immutable/components/pages/_page.svelte-8cf49638.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_Card-cb0de4f1.js"
+      "_index-56da23ed.js",
+      "_Card-678fa910.js"
     ],
     "css": [
       "_app/immutable/assets/_page-267aaa62.css"
@@ -57,24 +57,24 @@
     ]
   },
   "src/routes/price/+page.svelte": {
-    "file": "_app/immutable/components/pages/price/_page.svelte-dc643509.js",
+    "file": "_app/immutable/components/pages/price/_page.svelte-921df554.js",
     "src": "src/routes/price/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_Card-cb0de4f1.js"
+      "_index-56da23ed.js",
+      "_Card-678fa910.js"
     ],
     "css": [
       "_app/immutable/assets/_page-ccce8b1d.css"
     ]
   },
   "src/routes/services/+page.svelte": {
-    "file": "_app/immutable/components/pages/services/_page.svelte-b63d87a7.js",
+    "file": "_app/immutable/components/pages/services/_page.svelte-88482952.js",
     "src": "src/routes/services/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_index-60ec1971.js",
-      "_Card-cb0de4f1.js"
+      "_index-56da23ed.js",
+      "_Card-678fa910.js"
     ],
     "css": [
       "_app/immutable/assets/_page-ccce8b1d.css"
@@ -106,26 +106,26 @@
       "__page-1fe80f6c.js"
     ]
   },
-  "_singletons-26b758a2.js": {
-    "file": "_app/immutable/chunks/singletons-26b758a2.js",
+  "_singletons-0175b2e2.js": {
+    "file": "_app/immutable/chunks/singletons-0175b2e2.js",
     "imports": [
-      "_index-60ec1971.js"
+      "_index-56da23ed.js"
     ]
   },
-  "_index-60ec1971.js": {
-    "file": "_app/immutable/chunks/index-60ec1971.js"
+  "_index-56da23ed.js": {
+    "file": "_app/immutable/chunks/index-56da23ed.js"
   },
-  "_stores-505c98e1.js": {
-    "file": "_app/immutable/chunks/stores-505c98e1.js",
+  "_stores-3540599d.js": {
+    "file": "_app/immutable/chunks/stores-3540599d.js",
     "imports": [
-      "_index-60ec1971.js",
-      "_singletons-26b758a2.js"
+      "_index-56da23ed.js",
+      "_singletons-0175b2e2.js"
     ]
   },
-  "_Card-cb0de4f1.js": {
-    "file": "_app/immutable/chunks/Card-cb0de4f1.js",
+  "_Card-678fa910.js": {
+    "file": "_app/immutable/chunks/Card-678fa910.js",
     "imports": [
-      "_index-60ec1971.js"
+      "_index-56da23ed.js"
     ],
     "css": [
       "_app/immutable/assets/Card-23c1de9d.css"
@@ -150,7 +150,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-8d66b436.js",
+    "file": "_app/immutable/chunks/0-ed33e290.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -158,7 +158,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-90897b8b.js",
+    "file": "_app/immutable/chunks/1-821ca494.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -166,7 +166,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-94813bd9.js",
+    "file": "_app/immutable/chunks/2-20e6108c.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -175,7 +175,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-4c8b4493.js",
+    "file": "_app/immutable/chunks/3-b619dca6.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -184,13 +184,17 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-f91ec9d0.js",
+    "file": "_app/immutable/chunks/4-013f20ef.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-1fe80f6c.js",
       "src/routes/services/+page.svelte"
     ]
+  },
+  "src/routes/price/+page.css": {
+    "file": "_app/immutable/assets/_page-ccce8b1d.css",
+    "src": "src/routes/price/+page.css"
   },
   "src/routes/+layout.css": {
     "file": "_app/immutable/assets/_layout-2cafdf2a.css",
@@ -203,9 +207,5 @@
   "Card.css": {
     "file": "_app/immutable/assets/Card-23c1de9d.css",
     "src": "Card.css"
-  },
-  "src/routes/price/+page.css": {
-    "file": "_app/immutable/assets/_page-ccce8b1d.css",
-    "src": "src/routes/price/+page.css"
   }
 }
