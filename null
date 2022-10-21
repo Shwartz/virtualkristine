@@ -6,14 +6,14 @@
     <link rel="icon" href="/virtualkristine/favicon.png"/>
     <title>page title missing inheritance!</title>
     <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-bd5e2849.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-6fc534f0.js">
 		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/index-56da23ed.js">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-c2843dee.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-5ede8a77.js">
 </head>
 <body class="app">
 <div class="wrap">
 		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/virtualkristine/_app/immutable/start-bd5e2849.js";
+			import { start } from "/virtualkristine/_app/immutable/start-6fc534f0.js";
 
 			start({
 				env: {},
