@@ -4,9 +4,9 @@
 </script>
 
 <nav data-sveltekit-prefetch>
-    <a class:active={$page.url.pathname === '/'} href="{base}/">Home</a>
-    <a class:active={$page.url.pathname === '/services'} href="{base}/services">Services</a>
-    <a class:active={$page.url.pathname === '/price'} href="{base}/price">Price</a>
+    <a class:active={$page.url.pathname === `${base}/`} href="{base}/">Home</a>
+    <a class:active={$page.url.pathname === `${base}/services`} href="{base}/services">Services</a>
+    <a class:active={$page.url.pathname === `${base}/price`} href="{base}/price">Price</a>
 </nav>
 
 <slot></slot>

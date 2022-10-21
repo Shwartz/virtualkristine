@@ -1,5 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -13,7 +16,8 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html'
+			fallback: 'null',
+			precompress: false
 		}),
 		paths: {
 			base: dev ?  '' : '/virtualkristine',
