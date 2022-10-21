@@ -1,3 +1,7 @@
+<script>
+  import Card from "$lib/components/Card.svelte";
+</script>
+
 <div class="grid">
     <section>
         <h1>EA/PA and General Administration</h1>
@@ -22,6 +26,12 @@
             information</p>
         <p>Book the venues and events to put on your website</p>
         <p>Upload blog posts to your website</p>
+
+        <Card class="dark">
+            <h3>Hire me for a day</h3>
+            <p><a href="tel:+44-775-7998277">+44-775-7998277</a> |
+                <a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a></p>
+        </Card>
 
         <h3>Training/Workshop Organisation</h3>
         <ul>
