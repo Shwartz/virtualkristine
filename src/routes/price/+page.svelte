@@ -20,7 +20,7 @@
             for marketing as for filing.</p>
         <p>I would require 48 hours’ notice to cancel any booked services or time or 30 days’ notice to cancel an
             ongoing arrangement.</p>
-        <p>My ‘on-site’ fees are based on either a full or half day starting at £25 per hour plus expenses and VAT. We
+        <p>My ‘on-site’ fees are based on either a full or half day starting at <b>£25 per hour plus expenses and VAT</b>. We
             can discuss all of this during your business consultation and provide a full quotation based on how I can
             best serve your needs.</p>
     </section>
