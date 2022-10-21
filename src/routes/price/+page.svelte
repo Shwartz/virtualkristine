@@ -2,6 +2,12 @@
   import Card from "$lib/components/Card.svelte";
 </script>
 
+<svelte:head>
+    <title>Price - Virtual Assistant</title>
+    <meta name="description"
+          content="Virtual assistant help you with meeting co-ordination, emailing, Excel update, management of a complex diary and more" />
+</svelte:head>
+
 <div class="grid">
     <section>
         <h1>Price</h1>
