@@ -1,7 +1,15 @@
 import ghpages from 'gh-pages';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+
+if (!process.env.GITHUB_TOKEN) {
+  console.log('No GITHUB_TOKEN found');
+  process.exit(1)
+}
 
 ghpages.publish(
-  'public',
+  'build',
   {
     branch: 'gh-pages',
     silent: true,
