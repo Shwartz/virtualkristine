@@ -4,12 +4,12 @@
     "src": "src/lib/images/Kristine-Legzdina.jpg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-ca46190e.js",
+    "file": "_app/immutable/start-6d7ab8a8.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_singletons-a57aeec9.js"
+      "_singletons-f3c77a54.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -20,25 +20,25 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-a07a3782.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-a996260d.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_stores-fa82f8fa.js",
-      "_singletons-a57aeec9.js"
+      "_stores-8dfc1f77.js",
+      "_singletons-f3c77a54.js"
     ],
     "css": [
       "_app/immutable/assets/_layout-2cafdf2a.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-4c3144a1.js",
+    "file": "_app/immutable/components/error.svelte-47e3f2e4.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_stores-fa82f8fa.js"
+      "_stores-8dfc1f77.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -107,8 +107,8 @@
       "__page-1fe80f6c.js"
     ]
   },
-  "_singletons-a57aeec9.js": {
-    "file": "_app/immutable/chunks/singletons-a57aeec9.js",
+  "_singletons-f3c77a54.js": {
+    "file": "_app/immutable/chunks/singletons-f3c77a54.js",
     "imports": [
       "_index-56da23ed.js"
     ]
@@ -116,11 +116,11 @@
   "_index-56da23ed.js": {
     "file": "_app/immutable/chunks/index-56da23ed.js"
   },
-  "_stores-fa82f8fa.js": {
-    "file": "_app/immutable/chunks/stores-fa82f8fa.js",
+  "_stores-8dfc1f77.js": {
+    "file": "_app/immutable/chunks/stores-8dfc1f77.js",
     "imports": [
       "_index-56da23ed.js",
-      "_singletons-a57aeec9.js"
+      "_singletons-f3c77a54.js"
     ]
   },
   "_Card-678fa910.js": {
@@ -154,7 +154,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-472c2d35.js",
+    "file": "_app/immutable/chunks/0-3489da2f.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -162,7 +162,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-2c8fd0de.js",
+    "file": "_app/immutable/chunks/1-cb7b2601.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -204,12 +204,12 @@
     "file": "_app/immutable/assets/_page-267aaa62.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/services/+page.css": {
-    "file": "_app/immutable/assets/_page-ccce8b1d.css",
-    "src": "src/routes/services/+page.css"
-  },
   "Card.css": {
     "file": "_app/immutable/assets/Card-23c1de9d.css",
     "src": "Card.css"
+  },
+  "src/routes/price/+page.css": {
+    "file": "_app/immutable/assets/_page-ccce8b1d.css",
+    "src": "src/routes/price/+page.css"
   }
 }
