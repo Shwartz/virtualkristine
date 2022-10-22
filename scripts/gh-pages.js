@@ -9,7 +9,7 @@ if (!process.env.GITHUB_TOKEN) {
 }
 
 ghpages.publish(
-  'build',
+  'public',
   {
     branch: 'gh-pages',
     silent: true,
@@ -17,7 +17,8 @@ ghpages.publish(
     user: {
       name: 'Andris Svarcs',
       email: 'svarcs.01@gmail.com'
-    }
+    },
+    dotfiles: true
   },
   () => {
     console.log('Deploy Complete!')
