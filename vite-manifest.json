@@ -4,12 +4,12 @@
     "src": "src/lib/images/Kristine-Legzdina.jpg"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-1de272ba.js",
+    "file": "_app/immutable/start-c0ae5fbd.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_singletons-60ec9da1.js"
+      "_singletons-7fcc1a71.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -20,34 +20,34 @@
     ]
   },
   "src/routes/+layout.svelte": {
-    "file": "_app/immutable/components/pages/_layout.svelte-676e559b.js",
+    "file": "_app/immutable/components/pages/_layout.svelte-361306cc.js",
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_stores-681a640d.js",
-      "_singletons-60ec9da1.js"
+      "_stores-96fcc14c.js",
+      "_singletons-7fcc1a71.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout-2cafdf2a.css"
+      "_app/immutable/assets/_layout-6dece1cf.css"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-b513f355.js",
+    "file": "_app/immutable/components/error.svelte-effd916b.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_stores-681a640d.js"
+      "_stores-96fcc14c.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-8cf49638.js",
+    "file": "_app/immutable/components/pages/_page.svelte-79487100.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_Card-678fa910.js"
+      "_Card-83223585.js"
     ],
     "css": [
       "_app/immutable/assets/_page-267aaa62.css"
@@ -57,24 +57,24 @@
     ]
   },
   "src/routes/price/+page.svelte": {
-    "file": "_app/immutable/components/pages/price/_page.svelte-921df554.js",
+    "file": "_app/immutable/components/pages/price/_page.svelte-ea397d99.js",
     "src": "src/routes/price/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_Card-678fa910.js"
+      "_Card-83223585.js"
     ],
     "css": [
       "_app/immutable/assets/_page-ccce8b1d.css"
     ]
   },
   "src/routes/services/+page.svelte": {
-    "file": "_app/immutable/components/pages/services/_page.svelte-88482952.js",
+    "file": "_app/immutable/components/pages/services/_page.svelte-656be716.js",
     "src": "src/routes/services/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-56da23ed.js",
-      "_Card-678fa910.js"
+      "_Card-83223585.js"
     ],
     "css": [
       "_app/immutable/assets/_page-ccce8b1d.css"
@@ -107,8 +107,8 @@
       "__page-1fe80f6c.js"
     ]
   },
-  "_singletons-60ec9da1.js": {
-    "file": "_app/immutable/chunks/singletons-60ec9da1.js",
+  "_singletons-7fcc1a71.js": {
+    "file": "_app/immutable/chunks/singletons-7fcc1a71.js",
     "imports": [
       "_index-56da23ed.js"
     ]
@@ -116,20 +116,20 @@
   "_index-56da23ed.js": {
     "file": "_app/immutable/chunks/index-56da23ed.js"
   },
-  "_stores-681a640d.js": {
-    "file": "_app/immutable/chunks/stores-681a640d.js",
+  "_stores-96fcc14c.js": {
+    "file": "_app/immutable/chunks/stores-96fcc14c.js",
     "imports": [
       "_index-56da23ed.js",
-      "_singletons-60ec9da1.js"
+      "_singletons-7fcc1a71.js"
     ]
   },
-  "_Card-678fa910.js": {
-    "file": "_app/immutable/chunks/Card-678fa910.js",
+  "_Card-83223585.js": {
+    "file": "_app/immutable/chunks/Card-83223585.js",
     "imports": [
       "_index-56da23ed.js"
     ],
     "css": [
-      "_app/immutable/assets/Card-23c1de9d.css"
+      "_app/immutable/assets/Card-b71a4575.css"
     ]
   },
   "__page-fc5f13ef.js": {
@@ -154,7 +154,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/0.js": {
-    "file": "_app/immutable/chunks/0-3526d573.js",
+    "file": "_app/immutable/chunks/0-7072cd7c.js",
     "src": ".svelte-kit/generated/nodes/0.js",
     "isDynamicEntry": true,
     "imports": [
@@ -162,7 +162,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-9c784098.js",
+    "file": "_app/immutable/chunks/1-a57983bf.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -170,7 +170,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-f48bd936.js",
+    "file": "_app/immutable/chunks/2-8eca0f00.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -179,7 +179,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-b619dca6.js",
+    "file": "_app/immutable/chunks/3-315ee800.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -188,7 +188,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-013f20ef.js",
+    "file": "_app/immutable/chunks/4-21410743.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -196,20 +196,20 @@
       "src/routes/services/+page.svelte"
     ]
   },
-  "Card.css": {
-    "file": "_app/immutable/assets/Card-23c1de9d.css",
-    "src": "Card.css"
-  },
-  "src/routes/+layout.css": {
-    "file": "_app/immutable/assets/_layout-2cafdf2a.css",
-    "src": "src/routes/+layout.css"
-  },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/_page-267aaa62.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/services/+page.css": {
+  "Card.css": {
+    "file": "_app/immutable/assets/Card-b71a4575.css",
+    "src": "Card.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-6dece1cf.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/price/+page.css": {
     "file": "_app/immutable/assets/_page-ccce8b1d.css",
-    "src": "src/routes/services/+page.css"
+    "src": "src/routes/price/+page.css"
   }
 }
