@@ -16,7 +16,7 @@ const config = {
 		adapter: adapter({
 			pages: 'public',
 			assets: 'public',
-			fallback: 'index.html'
+			fallback: 'null'
 		}),
 		paths: {
 			base: dev ?  '' : '/virtualkristine',
