@@ -5,7 +5,7 @@
 <style>
     .card {
         margin: 2rem 0;
-        padding: 1.4rem 1rem 1rem;
+        padding: 2rem;
         border-radius: 8px;
         text-align: center;
         background: white;

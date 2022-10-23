@@ -31,6 +31,7 @@
         color: #000;
         background: #b7b5b5;
         border-bottom: 1px solid rgba(183, 181, 181, 0.6);
+        transition: background-color 0.3s ease;
     }
 
     nav a:first-child {
@@ -49,6 +50,11 @@
 
     nav a:hover {
         text-shadow: none;
+        background: #d0d0d0;
+    }
+
+    nav a.active:hover {
+        background: white;
     }
 
     footer {
@@ -62,5 +68,9 @@
         padding: 1rem;
         text-align: center;
         background: #b7b5b5;
+    }
+
+    footer p {
+        margin: 0;
     }
 </style>
