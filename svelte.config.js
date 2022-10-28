@@ -5,9 +5,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 // Result is pushed as is from public folder to github pages
-// When testing locally, change prod to development and run serve on public folder
-const dev = process.env.APP_ENV === 'prod';
-
+const dev = process.env.APP_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

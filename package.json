@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
+		"dev": "export APP_ENV=development && vite dev",
+		"build": "export APP_ENV=production && vite build",
 		"deploy": "npm run build && node ./scripts/gh-pages.js",
 		"preview": "vite preview",
 		"test": "playwright test",
