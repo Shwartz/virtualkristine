@@ -7,6 +7,7 @@ if (!process.env.GITHUB_TOKEN) {
   console.log('No GITHUB_TOKEN found');
   process.exit(1)
 }
+console.log('Deploy Starts!')
 
 ghpages.publish(
   'public',

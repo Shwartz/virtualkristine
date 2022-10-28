@@ -1,7 +1,6 @@
 <script lang="ts">
     import { page } from '$app/stores';
     import { base } from '$app/paths';
-    import '$lib/css/global.css';
 </script>
 
 <nav data-sveltekit-prefetch>
@@ -16,43 +15,46 @@
     <p class="font-small"><a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a> | © 2015 - 2022</p>
 </footer>
 
-<style>
+<style lang="scss">
+    :global {
+        @import '../lib/css/global.scss';
+    }
     nav {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
 
-    nav a {
-        padding: 1rem;
-        text-decoration: none;
-        color: #000;
-        background: #b7b5b5;
-        border-bottom: 1px solid rgba(183, 181, 181, 0.6);
-        transition: background-color 0.3s ease;
-    }
+        a {
+            padding: 1rem;
+            text-decoration: none;
+            color: #000;
+            background: #b7b5b5;
+            border-bottom: 1px solid rgba(183, 181, 181, 0.6);
+            transition: background-color 0.3s ease;
+        }
 
-    nav a:first-child {
-        border-bottom-left-radius: 8px;
-        border-left: 1px solid rgba(183, 181, 181, 0.6);
-    }
+        a:first-child {
+            border-bottom-left-radius: 8px;
+            border-left: 1px solid rgba(183, 181, 181, 0.6);
+        }
 
-    nav a:last-child {
-        border-bottom-right-radius: 8px;
-        border-right: 1px solid rgba(183, 181, 181, 0.6);
-    }
+        a:last-child {
+            border-bottom-right-radius: 8px;
+            border-right: 1px solid rgba(183, 181, 181, 0.6);
+        }
 
-    nav a.active {
-        background: white;
-    }
+        a.active {
+            background: white;
+        }
 
-    nav a:hover {
-        text-shadow: none;
-        background: #d0d0d0;
-    }
+        a:hover {
+            text-shadow: none;
+            background: #d0d0d0;
+        }
 
-    nav a.active:hover {
-        background: white;
+        a.active:hover {
+            background: white;
+        }
     }
 
     footer {
@@ -66,9 +68,9 @@
         padding: 1rem;
         text-align: center;
         background: #b7b5b5;
-    }
 
-    footer p {
-        margin: 0;
+        p {
+            margin: 0;
+        }
     }
 </style>

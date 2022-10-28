@@ -4,8 +4,10 @@ import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-//NODE_ENV is built in, therefore using SVELTE_APP_ prefix
-const dev = process.env.SVELTE_APP_ENV === 'development';
+// Result is pushed as is from public folder to github pages
+// When testing locally, change prod to development and run serve on public folder
+const dev = process.env.APP_ENV === 'prod';
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
