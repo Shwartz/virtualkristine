@@ -4,16 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="/virtualkristine/favicon.png" />
-  <title>Virtual assistant</title>
   <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-a9756f7a.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-5e93c7ba.js">
 		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/index-56da23ed.js">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-7526f7ac.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-7b90fdc4.js">
 </head>
 <body class="app">
 <div class="wrap">
 		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/virtualkristine/_app/immutable/start-a9756f7a.js";
+			import { start } from "/virtualkristine/_app/immutable/start-5e93c7ba.js";
 
 			start({
 				env: {},
