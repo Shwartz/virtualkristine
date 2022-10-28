@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="icon" href="/virtualkristine/favicon.png" />
   <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-5e93c7ba.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/start-170598dc.js">
 		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/index-56da23ed.js">
-		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-7b90fdc4.js">
+		<link rel="modulepreload" href="/virtualkristine/_app/immutable/chunks/singletons-77181f2e.js">
 </head>
 <body class="app">
 <div class="wrap">
 		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/virtualkristine/_app/immutable/start-5e93c7ba.js";
+			import { start } from "/virtualkristine/_app/immutable/start-170598dc.js";
 
 			start({
 				env: {},
