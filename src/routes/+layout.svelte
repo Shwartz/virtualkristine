@@ -1,6 +1,7 @@
 <script lang="ts">
     import { page } from '$app/stores';
     import { base } from '$app/paths';
+    import '$lib/css/global.css';
 </script>
 
 <nav data-sveltekit-prefetch>
@@ -12,10 +13,7 @@
 <slot></slot>
 
 <footer>
-    <p class="font-small">Call: <a href="tel:+44-775-7998277">+44-775-7998277</a>
-        | <a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a>
-        | © 2015 - 2022
-    </p>
+    <p class="font-small"><a href="https://www.linkedin.com/in/kristine-skirmante-28451452/">LinkedIn</a> | © 2015 - 2022</p>
 </footer>
 
 <style>
